@@ -1,0 +1,36 @@
+.hero{
+    display: flex;
+    align-items: flex-start;
+    /* float: right; */
+    /* flex-direction: column;
+    gap: 35px; */
+    margin-top: 80px;
+    margin-left: 50px;
+    justify-content: flex-start;
+}
+.hero img{
+    margin-top: 150px;
+    margin-left: 280px;
+    float: left;
+}
+.hero-brief{
+    margin-top: 210px;
+    margin-left: 100px;
+    align-items: center;
+}
+.social-handle{
+    list-style-type: none;
+    margin-left: 0;
+    margin-top: 20px;
+    display: flex; 
+    align-items: flex-start;
+}
+.social-handle li {
+    margin-right: 20px; 
+} 
+.social-handle li img {
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 25px; 
+    height: 25px;
+} 

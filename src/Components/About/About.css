@@ -1,0 +1,25 @@
+.about-title{
+    display: flex;
+    align-items: center;
+    margin-top: 110px;
+    /* margin-left: 240px; */
+    justify-content: center;
+}
+.about-me{
+    margin-top: 20px;
+    text-align: justify;
+    width: 620px; 
+    padding-left: 20em;
+    padding-bottom: 50px;
+    white-space: pre-wrap;
+}
+.about-me ul{ 
+    list-style-position: inside;
+    list-style-type: decimal;
+}
+.about-me p::after
+{
+    border-top: black ;
+    width: 620px;
+    display: block;
+}
