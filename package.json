@@ -5,18 +5,13 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "cp index.html && gh-pages -d build",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "predeploy": "vite build",
+  "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-router-dom": "^6.23.0",
-    "react-scripts": "^5.0.1"
+    "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",
